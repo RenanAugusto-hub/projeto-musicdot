@@ -1,5 +1,4 @@
 body {
-  width: 940px;
   margin-left: auto;
   margin-right: auto;
   font-style: 16px;
@@ -16,6 +15,8 @@ body {
   border-bottom: 2px solid black;
 }
 figure {
+  min-width: 100%;
+  box-sizing: border-box;
   margin: 30px;
   padding: 15px;
   text-align: center;
